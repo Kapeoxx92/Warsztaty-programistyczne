@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 {
+    width: 800px;
+    height: 300px;
+    border: solid;
+    background-color: darkgrey;
+}
+
+#div2 {
+    width: 760px;
+    height: 260px;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+}
+
+#div3 {
+    width: 730px;
+    height: 230px;
+    border-style: solid;
+    background-color: white;
+}
+
+#div4 {
+    width: 715px;
+    height: 215px;
+    border: solid;
+    background-color: darkgray;
+}
+#text {
+    display: block;
+    margin-left: 7px;
+}
