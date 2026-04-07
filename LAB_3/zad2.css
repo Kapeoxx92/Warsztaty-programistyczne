@@ -1,0 +1,11 @@
+.red {
+    color: red;
+}
+.green {
+    color: green;
+    list-style: lower-alpha;
+}
+.blue {
+    color: blue;
+    list-style: square;
+}

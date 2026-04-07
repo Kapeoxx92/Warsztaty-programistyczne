@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>*denotes mandotory</h3>
+    <form action="" method="post">
+    <label for="name">Full name*:</label>
+    <br>
+    <input type="text" placeholder="FirstName LastName" required>
+    <br>
+    <label for="email">Email address*:</label>
+    <br>
+    <input type="email" required>
+    <br>
+    <label for="tour">Select Tour Package*:</label>
+    <br>
+    <select name="tour" id="Tour" required>
+        <option value="Goa">Goa</option>
+    </select>
+    <br>
+    <label for="date">Arrival date*:</label>
+    <br>
+    <input type="text" placeholder="m/d/y" required>
+    <br>
+    <label for="tel">Number of persons*</label>
+    <br>
+    <input type="text" required>
+    <br>
+    <label for="check">What would you want to avail?</label>
+    <br>
+    <label for="boarding">Boarding</label>
+    <input type="checkbox">
+    <br>
+    <label for="fooding">Fooding</label>
+    <input type="checkbox">
+    <br>
+    <label for="sight_seeing">Sight seeing</label>
+    <input type="checkbox">
+    <br>
+    <label for="code">Discount Coupon code:</label>
+    <br>
+    <input type="text">
+    <br>
+    <label for="terms">Terms and conditions*</label>
+    <br>
+    <input type="radio" value="I agree" name="consent" checked>
+    <label for="agree">I agree</label>
+    <input type="radio" value="I disagree" name="consent">
+    <label for="disagree">I disagree</label>
+    <br>
+    <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>
