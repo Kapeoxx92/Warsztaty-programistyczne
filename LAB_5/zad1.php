@@ -11,7 +11,11 @@
         $b = 1;
         $c = 8;
 
-        echo (a * a);
+        if (($a * $a) + ($b * $b) == ($c * $c)) {
+            echo "Spełnia warunek z twierdzenia Pitarasa";
+        } else {
+            echo "Nie spełnia warunku z twierdzenia Pitarasa";
+        }
     ?>
 </body>
 </html>
