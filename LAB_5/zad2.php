@@ -7,15 +7,28 @@
 </head>
 <body>
     <?php
-        $a = 3;
-        $b = 1;
-        $c = 8;
+$a = 5;
+$b = 3;
+$c = 4;
 
-        if (($a * $a) + ($b * $b) == ($c * $c)) {
-            echo "Spełnia warunek z twierdzenia Pitarasa";
-        } else {
-            echo "Nie spełnia warunku z twierdzenia Pitarasa";
-        }
-    ?>
+$max = max($a, $b, $c);
+
+if ($max == $a) {
+    $x = $b;
+    $y = $c;
+} elseif ($max == $b) {
+    $x = $a;
+    $y = $c;
+} else {
+    $x = $a;
+    $y = $b;
+}
+
+if ($x * $x + $y * $y == $max * $max) {
+    echo "Spełniają twierdzenie Pitagorasa";
+} else {
+    echo "Nie spełniają";
+}
+?>
 </body>
 </html>
