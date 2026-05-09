@@ -1,0 +1,18 @@
+body { font-family: sans-serif; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+        h1 { font-size: 3rem; margin-bottom: 20px; }
+        .form-container { margin-bottom: 30px; display: flex; gap: 10px; }
+        input { padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 150px; }
+        .btn { background-color: #5cb85c; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none; font-size: 1rem; }
+        .btn:hover { background-color: #4cae4c; }
+        
+        .calendar-title { font-size: 2rem; font-weight: bold; margin: 20px 0; color: #333; }
+        
+        table { background: white; border-collapse: collapse; width: 800px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); table-layout: fixed; }
+        th { background-color: #4caf50; color: white; padding: 15px; font-weight: normal; border: 1px solid #ddd; }
+        td { border: 1px solid #ddd; height: 80px; vertical-align: top; padding: 5px; position: relative; }
+        .day-num { font-weight: bold; display: block; margin-bottom: 5px; text-align: center; }
+        
+        .event-list { font-size: 0.75rem; color: #d9534f; list-style: none; padding: 0; margin: 0; }
+        .nav-container { margin-top: 20px; display: flex; gap: 10px; }
+        
+        .event-form { margin-top: 20px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
