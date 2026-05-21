@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    width: 400px;
+    text-align: center;
+}
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #218838;
+}
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+    text-decoration: none;
+}
