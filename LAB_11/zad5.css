@@ -1,0 +1,57 @@
+body {
+
+    background: #ececec;
+    font-family: Arial;
+}
+
+.container {
+
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+}
+
+h1, h2 {
+
+    color: #0057b7;
+}
+
+form {
+
+    margin-bottom: 40px;
+}
+
+input,
+select {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button,
+.btn {
+
+    background: #0057b7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.delete {
+
+    background: crimson;
+}
+
+.card {
+
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f7f7f7;
+}
